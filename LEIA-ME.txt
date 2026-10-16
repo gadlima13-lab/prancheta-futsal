@@ -1,0 +1,31 @@
+PRANCHETA FUTSAL DIGITAL
+========================
+
+O que tem nesta pasta
+- index.html ............ a prancheta (quadra, caneta, apagar, desfazer, travar)
+- manifest.webmanifest .. faz o iPad tratar a prancheta como um app
+- sw.js ................. deixa funcionando sem internet depois do primeiro acesso
+- icons/ ................ ícone com o escudo para a Tela de Início
+
+COMO COLOCAR NO AR (grátis, sem programar)
+1. Descompacte o .zip.
+2. Entre em https://app.netlify.com/drop
+3. Arraste a PASTA descompactada (a que tem o index.html dentro) para a página.
+4. O Netlify gera um link https://.... Pronto, é esse link que você manda para o time.
+   Crie uma conta grátis no Netlify para o link não expirar e para trocar o nome do link.
+
+Outras opções que também funcionam: Vercel, GitHub Pages ou a hospedagem do seu site.
+Importante: precisa ser um endereço https:// para o modo sem internet funcionar.
+
+COMO INSTALAR NO IPAD
+1. Abra o link no Safari.
+2. Toque em Compartilhar (quadrado com a seta) > Adicionar à Tela de Início.
+3. Abra pelo ícone do escudo: a prancheta abre em tela cheia, sem a barra do navegador.
+4. Depois do primeiro acesso, funciona mesmo sem internet no ginásio.
+
+ATUALIZAR
+Para colocar uma versão nova, suba a pasta nova no mesmo site do Netlify
+(aba Deploys > arraste a pasta). No iPad, feche e abra a prancheta duas vezes
+para pegar a versão nova.
+
+Observação: os desenhos ficam guardados em cada iPad. Um iPad não vê o desenho do outro.
