@@ -1,5 +1,5 @@
 // Guarda a prancheta no aparelho para funcionar mesmo sem internet no ginásio.
-const CACHE = 'prancheta-futsal-v1';
+const CACHE = 'prancheta-futsal-v3';
 const ARQUIVOS = [
   './',
   './index.html',
